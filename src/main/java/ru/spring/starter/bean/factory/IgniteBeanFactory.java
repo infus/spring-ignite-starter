@@ -1,4 +1,4 @@
-package ru.vtb.dbo.bean.factory;
+package ru.spring.starter.bean.factory;
 
 import java.util.Set;
 
@@ -8,9 +8,9 @@ import org.springframework.beans.TypeConverter;
 import org.springframework.beans.factory.config.DependencyDescriptor;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 
-import ru.vtb.dbo.annotation.IgniteResource;
-import ru.vtb.dbo.configuration.IgniteSpringBootConfiguration;
-import ru.vtb.dbo.properties.DefaultIgniteProperties;
+import ru.spring.starter.annotation.IgniteResource;
+import ru.spring.starter.configuration.IgniteSpringBootConfiguration;
+import ru.spring.starter.properties.DefaultIgniteProperties;
 
 public class IgniteBeanFactory extends DefaultListableBeanFactory {
 

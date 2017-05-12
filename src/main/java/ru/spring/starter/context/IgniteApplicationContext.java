@@ -1,8 +1,8 @@
-package ru.vtb.dbo.context;
+package ru.spring.starter.context;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import ru.vtb.dbo.bean.factory.IgniteBeanFactory;
+import ru.spring.starter.bean.factory.IgniteBeanFactory;
 
 public class IgniteApplicationContext extends AnnotationConfigApplicationContext {
     public IgniteApplicationContext() {

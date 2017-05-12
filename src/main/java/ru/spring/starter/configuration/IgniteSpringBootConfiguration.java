@@ -1,4 +1,4 @@
-package ru.vtb.dbo.configuration;
+package ru.spring.starter.configuration;
 
 import static org.apache.ignite.internal.IgniteNodeAttributes.ATTR_GRID_NAME;
 
@@ -23,8 +23,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.util.StringUtils;
 
-import ru.vtb.dbo.annotation.IgniteResource;
-import ru.vtb.dbo.properties.DefaultIgniteProperties;
+import ru.spring.starter.properties.DefaultIgniteProperties;
+import ru.spring.starter.annotation.IgniteResource;
 
 public class IgniteSpringBootConfiguration {
 

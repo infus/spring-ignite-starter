@@ -1,4 +1,4 @@
-package ru.vtb.dbo.annotation;
+package ru.spring.starter.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

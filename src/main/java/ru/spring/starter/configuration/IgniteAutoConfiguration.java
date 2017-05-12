@@ -1,4 +1,4 @@
-package ru.vtb.dbo.configuration;
+package ru.spring.starter.configuration;
 
 import org.apache.ignite.Ignite;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
