@@ -1,0 +1,10 @@
+ignite:
+  configuration:
+    default:
+      configPath: classpath:ignite/**/*.xml
+      gridName: testGrid
+      clientMode: true
+      peerClassLoadingEnabled: true
+      localAddress: localhost
+      ipDiscoveryRange: 127.0.0.1:47500..47509
+      useSameServerNames: true
